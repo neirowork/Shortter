@@ -1,0 +1,21 @@
+{
+  "name": "shortter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .shortter/index",
+    "build": "babel src -d .shortter",
+    "dev": "babel-node src",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.2",
+    "express": "^4.16.4"
+  }
+}
